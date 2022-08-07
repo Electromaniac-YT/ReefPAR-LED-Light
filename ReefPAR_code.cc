@@ -131,7 +131,7 @@ void loop()
  
   for(int pos = 1020; pos >= 0; pos--)
   {  
-      String slider1     = "/slider_blue/";  // Slider for Blue LED
+      String slider1     = "/slider_blue/";   // Slider for Blue LED
       String slider_pos1 = slider1 + pos;       
       String slider2     = "/slider_uv/";     // Slider for UV LED 
       String slider_pos2 = slider2 + pos;    
